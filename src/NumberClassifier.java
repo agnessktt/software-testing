@@ -19,6 +19,8 @@ public class NumberClassifier {
             return "More positives";
         } else if (negative > positive) {
             return "More negatives";
+        } else if (zero > 0) {
+            return "Contains zero";
         } else {
             return "Equal positives and negatives";
         }
